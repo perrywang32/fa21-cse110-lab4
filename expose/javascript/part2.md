@@ -7,4 +7,6 @@ Questions and Answers for Part 2
 6) The same error occurs at line 13 as line 12 with the uncaught referenceError saying that discountedPrice is not defined. discountedPrice is only defined within the scope of the for loop as a let type and therefore is not accessible outside of the for loop, causing the error to occur.
 7) 150 is printed since it's the last final price that is calculated and stored in the finalPrice variable while going through the for loop. It does not run into an error since it is declared within the scope of the function and the print call occurs within the function. If it wasn't called within the scope of the function, as a let type, finalPrice will also cause an error.
 8) Nothing is printed since all the printing messages within the function are commented out. discounted variable will be returned from this function.
-9) 
+9) An error is caused as the message displays as an uncaught referenceError: i is not defined. i is only defined within the scope of the for loop as a let type and therefore is not accessible outside of the for loop, causing the error to occur.
+10) It will return an integer of 3 since the parameter array had a size of 3. 
+11) Nothing is printed since all the printing messages within the function are commented out. discounted variable will be returned from this function.
